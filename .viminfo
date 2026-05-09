@@ -15,13 +15,13 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1778316192,,"wq"
+|2,0,1778319804,,"wq"
+:q!
+|2,0,1778316752,,"q!"
 :%d
 |2,0,1778315533,,"%d"
 :Wq
 |2,0,1778315422,,"Wq"
-:q!
-|2,0,1778314055,,"q!"
 
 # Search String History (newest to oldest):
 
@@ -67,40 +67,194 @@ $
 |3,0,2,1,9,0,1778313478,"FROM python:3.9","","WORKDIR /app","","COPY . .","","RUN pip install flask","","CMD [\"python\", \"app.py\"]"
 
 # File marks:
-'0  7  4  ~/.gitignore
-|4,48,7,4,1778316192,"~/.gitignore"
-'1  27  12  ~/.github/workflows/cicd.yaml
-|4,49,27,12,1778315685,"~/.github/workflows/cicd.yaml"
-'2  1  22  ~/.github/workflows/cicd.yaml
-|4,50,1,22,1778315423,"~/.github/workflows/cicd.yaml"
-'3  9  22  ~/.github/workflows/cicd.yaml
-|4,51,9,22,1778315423,"~/.github/workflows/cicd.yaml"
-'4  8  51  ~/deploy.sh
-|4,52,8,51,1778315069,"~/deploy.sh"
-'5  1  0  /etc/nginx/sites-available/default
-|4,53,1,0,1778314055,"/etc/nginx/sites-available/default"
-'6  8  1  /etc
-|4,54,8,1,1778313978,"/etc"
-'7  9  23  ~/app/Dockerfile
-|4,55,9,23,1778313481,"~/app/Dockerfile"
-'8  1  4  ~/app/requirements.txt
-|4,56,1,4,1778313437,"~/app/requirements.txt"
-'9  1  22  ~/.github/workflows/cicd.yaml
-|4,57,1,22,1778313017,"~/.github/workflows/cicd.yaml"
+'0  25  26  ~/.github/workflows/cicd.yaml
+|4,48,25,26,1778319804,"~/.github/workflows/cicd.yaml"
+'1  33  11  ~/.github/workflows/cicd.yaml
+|4,49,33,11,1778316860,"~/.github/workflows/cicd.yaml"
+'2  33  11  ~/.github/workflows/cicd.yaml
+|4,50,33,11,1778316860,"~/.github/workflows/cicd.yaml"
+'3  1  0  ~/devops-platform/.github/workflows/cicd.yaml
+|4,51,1,0,1778316752,"~/devops-platform/.github/workflows/cicd.yaml"
+'4  6  11  ~/devops-platform/app/app.py
+|4,52,6,11,1778316486,"~/devops-platform/app/app.py"
+'5  7  4  ~/.gitignore
+|4,53,7,4,1778316192,"~/.gitignore"
+'6  27  12  ~/.github/workflows/cicd.yaml
+|4,54,27,12,1778315685,"~/.github/workflows/cicd.yaml"
+'7  27  12  ~/.github/workflows/cicd.yaml
+|4,55,27,12,1778315685,"~/.github/workflows/cicd.yaml"
+'8  27  12  ~/.github/workflows/cicd.yaml
+|4,56,27,12,1778315685,"~/.github/workflows/cicd.yaml"
+'9  27  12  ~/.github/workflows/cicd.yaml
+|4,57,27,12,1778315685,"~/.github/workflows/cicd.yaml"
 
 # Jumplist (newest first):
+-'  25  26  ~/.github/workflows/cicd.yaml
+|4,39,25,26,1778319804,"~/.github/workflows/cicd.yaml"
+-'  33  11  ~/.github/workflows/cicd.yaml
+|4,39,33,11,1778319729,"~/.github/workflows/cicd.yaml"
+-'  33  11  ~/.github/workflows/cicd.yaml
+|4,39,33,11,1778316860,"~/.github/workflows/cicd.yaml"
+-'  27  12  ~/.github/workflows/cicd.yaml
+|4,39,27,12,1778316792,"~/.github/workflows/cicd.yaml"
+-'  27  12  ~/.github/workflows/cicd.yaml
+|4,39,27,12,1778316792,"~/.github/workflows/cicd.yaml"
+-'  1  0  ~/devops-platform/.github/workflows/cicd.yaml
+|4,39,1,0,1778316752,"~/devops-platform/.github/workflows/cicd.yaml"
+-'  1  0  ~/devops-platform/.github/workflows/cicd.yaml
+|4,39,1,0,1778316752,"~/devops-platform/.github/workflows/cicd.yaml"
+-'  1  0  ~/devops-platform/.github/workflows/cicd.yaml
+|4,39,1,0,1778316752,"~/devops-platform/.github/workflows/cicd.yaml"
+-'  1  0  ~/devops-platform/.github/workflows/cicd.yaml
+|4,39,1,0,1778316752,"~/devops-platform/.github/workflows/cicd.yaml"
+-'  6  11  ~/devops-platform/app/app.py
+|4,39,6,11,1778316486,"~/devops-platform/app/app.py"
+-'  6  11  ~/devops-platform/app/app.py
+|4,39,6,11,1778316486,"~/devops-platform/app/app.py"
+-'  6  11  ~/devops-platform/app/app.py
+|4,39,6,11,1778316486,"~/devops-platform/app/app.py"
+-'  6  11  ~/devops-platform/app/app.py
+|4,39,6,11,1778316486,"~/devops-platform/app/app.py"
+-'  6  11  ~/devops-platform/app/app.py
+|4,39,6,11,1778316486,"~/devops-platform/app/app.py"
+-'  6  11  ~/devops-platform/app/app.py
+|4,39,6,11,1778316486,"~/devops-platform/app/app.py"
+-'  6  11  ~/devops-platform/app/app.py
+|4,39,6,11,1778316486,"~/devops-platform/app/app.py"
+-'  6  11  ~/devops-platform/app/app.py
+|4,39,6,11,1778316486,"~/devops-platform/app/app.py"
+-'  1  0  ~/devops-platform/app/app.py
+|4,39,1,0,1778316450,"~/devops-platform/app/app.py"
+-'  1  0  ~/devops-platform/app/app.py
+|4,39,1,0,1778316450,"~/devops-platform/app/app.py"
+-'  1  0  ~/devops-platform/app/app.py
+|4,39,1,0,1778316450,"~/devops-platform/app/app.py"
+-'  1  0  ~/devops-platform/app/app.py
+|4,39,1,0,1778316450,"~/devops-platform/app/app.py"
+-'  1  0  ~/devops-platform/app/app.py
+|4,39,1,0,1778316450,"~/devops-platform/app/app.py"
+-'  1  0  ~/devops-platform/app/app.py
+|4,39,1,0,1778316450,"~/devops-platform/app/app.py"
+-'  1  0  ~/devops-platform/app/app.py
+|4,39,1,0,1778316450,"~/devops-platform/app/app.py"
+-'  1  0  ~/devops-platform/app/app.py
+|4,39,1,0,1778316450,"~/devops-platform/app/app.py"
 -'  7  4  ~/.gitignore
 |4,39,7,4,1778316192,"~/.gitignore"
+-'  7  4  ~/.gitignore
+|4,39,7,4,1778316192,"~/.gitignore"
+-'  7  4  ~/.gitignore
+|4,39,7,4,1778316192,"~/.gitignore"
+-'  7  4  ~/.gitignore
+|4,39,7,4,1778316192,"~/.gitignore"
+-'  7  4  ~/.gitignore
+|4,39,7,4,1778316192,"~/.gitignore"
+-'  7  4  ~/.gitignore
+|4,39,7,4,1778316192,"~/.gitignore"
+-'  7  4  ~/.gitignore
+|4,39,7,4,1778316192,"~/.gitignore"
+-'  7  4  ~/.gitignore
+|4,39,7,4,1778316192,"~/.gitignore"
+-'  7  4  ~/.gitignore
+|4,39,7,4,1778316192,"~/.gitignore"
+-'  7  4  ~/.gitignore
+|4,39,7,4,1778316192,"~/.gitignore"
+-'  7  4  ~/.gitignore
+|4,39,7,4,1778316192,"~/.gitignore"
+-'  7  4  ~/.gitignore
+|4,39,7,4,1778316192,"~/.gitignore"
+-'  7  4  ~/.gitignore
+|4,39,7,4,1778316192,"~/.gitignore"
+-'  7  4  ~/.gitignore
+|4,39,7,4,1778316192,"~/.gitignore"
+-'  7  4  ~/.gitignore
+|4,39,7,4,1778316192,"~/.gitignore"
+-'  7  4  ~/.gitignore
+|4,39,7,4,1778316192,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1778316185,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1778316185,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1778316185,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1778316185,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1778316185,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1778316185,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1778316185,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1778316185,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1778316185,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1778316185,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1778316185,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1778316185,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1778316185,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1778316185,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1778316185,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1778316185,"~/.gitignore"
 -'  27  12  ~/.github/workflows/cicd.yaml
 |4,39,27,12,1778315685,"~/.github/workflows/cicd.yaml"
 -'  27  12  ~/.github/workflows/cicd.yaml
 |4,39,27,12,1778315685,"~/.github/workflows/cicd.yaml"
+-'  27  12  ~/.github/workflows/cicd.yaml
+|4,39,27,12,1778315685,"~/.github/workflows/cicd.yaml"
+-'  27  12  ~/.github/workflows/cicd.yaml
+|4,39,27,12,1778315685,"~/.github/workflows/cicd.yaml"
+-'  27  12  ~/.github/workflows/cicd.yaml
+|4,39,27,12,1778315685,"~/.github/workflows/cicd.yaml"
+-'  27  12  ~/.github/workflows/cicd.yaml
+|4,39,27,12,1778315685,"~/.github/workflows/cicd.yaml"
+-'  27  12  ~/.github/workflows/cicd.yaml
+|4,39,27,12,1778315685,"~/.github/workflows/cicd.yaml"
+-'  27  12  ~/.github/workflows/cicd.yaml
+|4,39,27,12,1778315685,"~/.github/workflows/cicd.yaml"
 -'  1  22  ~/.github/workflows/cicd.yaml
 |4,39,1,22,1778315533,"~/.github/workflows/cicd.yaml"
 -'  1  22  ~/.github/workflows/cicd.yaml
 |4,39,1,22,1778315533,"~/.github/workflows/cicd.yaml"
+-'  1  22  ~/.github/workflows/cicd.yaml
+|4,39,1,22,1778315533,"~/.github/workflows/cicd.yaml"
+-'  1  22  ~/.github/workflows/cicd.yaml
+|4,39,1,22,1778315533,"~/.github/workflows/cicd.yaml"
+-'  1  22  ~/.github/workflows/cicd.yaml
+|4,39,1,22,1778315533,"~/.github/workflows/cicd.yaml"
+-'  1  22  ~/.github/workflows/cicd.yaml
+|4,39,1,22,1778315533,"~/.github/workflows/cicd.yaml"
+-'  1  22  ~/.github/workflows/cicd.yaml
+|4,39,1,22,1778315533,"~/.github/workflows/cicd.yaml"
+-'  1  22  ~/.github/workflows/cicd.yaml
+|4,39,1,22,1778315533,"~/.github/workflows/cicd.yaml"
+-'  1  22  ~/.github/workflows/cicd.yaml
+|4,39,1,22,1778315533,"~/.github/workflows/cicd.yaml"
+-'  1  22  ~/.github/workflows/cicd.yaml
+|4,39,1,22,1778315533,"~/.github/workflows/cicd.yaml"
+-'  9  22  ~/.github/workflows/cicd.yaml
+|4,39,9,22,1778315423,"~/.github/workflows/cicd.yaml"
+-'  9  22  ~/.github/workflows/cicd.yaml
+|4,39,9,22,1778315423,"~/.github/workflows/cicd.yaml"
+-'  9  22  ~/.github/workflows/cicd.yaml
+|4,39,9,22,1778315423,"~/.github/workflows/cicd.yaml"
+-'  9  22  ~/.github/workflows/cicd.yaml
+|4,39,9,22,1778315423,"~/.github/workflows/cicd.yaml"
+-'  9  22  ~/.github/workflows/cicd.yaml
+|4,39,9,22,1778315423,"~/.github/workflows/cicd.yaml"
+-'  9  22  ~/.github/workflows/cicd.yaml
+|4,39,9,22,1778315423,"~/.github/workflows/cicd.yaml"
+-'  9  22  ~/.github/workflows/cicd.yaml
+|4,39,9,22,1778315423,"~/.github/workflows/cicd.yaml"
+-'  9  22  ~/.github/workflows/cicd.yaml
+|4,39,9,22,1778315423,"~/.github/workflows/cicd.yaml"
 -'  9  22  ~/.github/workflows/cicd.yaml
 |4,39,9,22,1778315423,"~/.github/workflows/cicd.yaml"
 -'  9  22  ~/.github/workflows/cicd.yaml
@@ -121,176 +275,45 @@ $
 |4,39,8,51,1778315069,"~/deploy.sh"
 -'  8  51  ~/deploy.sh
 |4,39,8,51,1778315069,"~/deploy.sh"
--'  1  0  ~/deploy.sh
-|4,39,1,0,1778314734,"~/deploy.sh"
--'  1  0  ~/deploy.sh
-|4,39,1,0,1778314734,"~/deploy.sh"
--'  1  0  ~/deploy.sh
-|4,39,1,0,1778314734,"~/deploy.sh"
--'  1  0  ~/deploy.sh
-|4,39,1,0,1778314734,"~/deploy.sh"
--'  1  0  ~/deploy.sh
-|4,39,1,0,1778314734,"~/deploy.sh"
--'  1  0  ~/deploy.sh
-|4,39,1,0,1778314734,"~/deploy.sh"
--'  1  0  ~/deploy.sh
-|4,39,1,0,1778314734,"~/deploy.sh"
--'  1  0  ~/deploy.sh
-|4,39,1,0,1778314734,"~/deploy.sh"
--'  1  0  /etc/nginx/sites-available/default
-|4,39,1,0,1778314055,"/etc/nginx/sites-available/default"
--'  1  0  /etc/nginx/sites-available/default
-|4,39,1,0,1778314055,"/etc/nginx/sites-available/default"
--'  1  0  /etc/nginx/sites-available/default
-|4,39,1,0,1778314055,"/etc/nginx/sites-available/default"
--'  1  0  /etc/nginx/sites-available/default
-|4,39,1,0,1778314055,"/etc/nginx/sites-available/default"
--'  1  0  /etc/nginx/sites-available/default
-|4,39,1,0,1778314055,"/etc/nginx/sites-available/default"
--'  1  0  /etc/nginx/sites-available/default
-|4,39,1,0,1778314055,"/etc/nginx/sites-available/default"
--'  1  0  /etc/nginx/sites-available/default
-|4,39,1,0,1778314055,"/etc/nginx/sites-available/default"
--'  1  0  /etc/nginx/sites-available/default
-|4,39,1,0,1778314055,"/etc/nginx/sites-available/default"
--'  1  0  /etc/nginx/sites-available/default
-|4,39,1,0,1778314055,"/etc/nginx/sites-available/default"
--'  1  0  /etc/nginx/sites-available/default
-|4,39,1,0,1778314055,"/etc/nginx/sites-available/default"
--'  1  0  /etc/nginx/sites-available/default
-|4,39,1,0,1778314055,"/etc/nginx/sites-available/default"
--'  1  0  /etc/nginx/sites-available/default
-|4,39,1,0,1778314055,"/etc/nginx/sites-available/default"
--'  1  0  /etc/nginx/sites-available/default
-|4,39,1,0,1778314055,"/etc/nginx/sites-available/default"
--'  1  0  /etc/nginx/sites-available/default
-|4,39,1,0,1778314055,"/etc/nginx/sites-available/default"
--'  1  0  /etc/nginx/sites-available/default
-|4,39,1,0,1778314055,"/etc/nginx/sites-available/default"
--'  1  0  /etc/nginx/sites-available/default
-|4,39,1,0,1778314055,"/etc/nginx/sites-available/default"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  8  1  /etc
-|4,39,8,1,1778313978,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
--'  214  0  /etc
-|4,39,214,0,1778313973,"/etc"
+-'  8  51  ~/deploy.sh
+|4,39,8,51,1778315069,"~/deploy.sh"
+-'  8  51  ~/deploy.sh
+|4,39,8,51,1778315069,"~/deploy.sh"
+-'  8  51  ~/deploy.sh
+|4,39,8,51,1778315069,"~/deploy.sh"
+-'  8  51  ~/deploy.sh
+|4,39,8,51,1778315069,"~/deploy.sh"
+-'  8  51  ~/deploy.sh
+|4,39,8,51,1778315069,"~/deploy.sh"
+-'  8  51  ~/deploy.sh
+|4,39,8,51,1778315069,"~/deploy.sh"
+-'  8  51  ~/deploy.sh
+|4,39,8,51,1778315069,"~/deploy.sh"
 
 # History of marks within files (newest to oldest):
+
+> ~/.github/workflows/cicd.yaml
+	*	1778319803	0
+	"	25	26
+	^	25	27
+	.	17	68
+	+	1	20
+	+	33	22
+	+	17	38
+	+	23	34
+	+	33	11
+	+	17	68
+
+> ~/devops-platform/.github/workflows/cicd.yaml
+	*	1778316748	0
+	"	1	0
+
+> ~/devops-platform/app/app.py
+	*	1778316485	0
+	"	6	11
+	^	6	12
+	.	6	12
+	+	6	12
 
 > ~/.gitignore
 	*	1778316188	0
@@ -298,17 +321,6 @@ $
 	^	7	5
 	.	7	4
 	+	7	4
-
-> ~/.github/workflows/cicd.yaml
-	*	1778315683	0
-	"	27	12
-	^	27	13
-	.	33	21
-	+	1	20
-	+	33	22
-	+	17	38
-	+	23	34
-	+	33	21
 
 > ~/deploy.sh
 	*	1778315068	0
