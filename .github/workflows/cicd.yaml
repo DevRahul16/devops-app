@@ -30,4 +30,4 @@ jobs:
           key: ${{ secrets.EC2_KEY }}
           script: |
             cd ~/devops-platform
-          ./deploy.sh
+            ./deploy.sh
